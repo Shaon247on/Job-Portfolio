@@ -9,7 +9,7 @@ const ThemeContext = ({children}) => {
 useEffect(()=>{
     const storedTheme = localStorage.getItem("Theme",) || "Light"
     setTheme(storedTheme)
-})
+},[theme])
 
 const changeTheme= (theme)=>{
     setTheme(theme)

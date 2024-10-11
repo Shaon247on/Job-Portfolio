@@ -8,13 +8,16 @@ import SideMenu from '@/src/app/Components/SideMenu';
 
 import NavList from '@/src/app/Components/NavList';
 import Logo from './Logo';
+import { useEffect } from 'react';
 
 
-AOS.init();
+
 
 const NavBarFlot = () => {
 
-
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
         <>
             <div
