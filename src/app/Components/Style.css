@@ -1,0 +1,7 @@
+.nav_bar{
+    width: 100%;       
+    background-color: rgba(255, 243, 243, 0.055);
+    position: fixed;
+    top: 0;    
+    backdrop-filter: blur(15px);      
+}
