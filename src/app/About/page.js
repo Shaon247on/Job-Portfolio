@@ -1,7 +1,7 @@
 import About from '../Components/About';
-import Banner from '../Components/Banner';
 
-const AboutMePage = () => {
+const AboutMePage = () => { 
+   
     return (
         <div>
             <About/>

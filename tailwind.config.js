@@ -1,34 +1,24 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {  
+module.exports = {
+  darkMode: 'class',
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",    
- 
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
-       
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "dark": "#232a3c",
+        "medium": "#FD6F00",
+        "primary": "#FD6F00"
       },
       fontFamily: {
         poppins: ["var(--font-poppins)"],
-        montserrat: ["var(--font-montserrat)"]
-      }
-    },
-  },
-  plugins: [require('daisyui'),],
-  daisyui: {
-    themes: ['light', {
-      dark: {
-        ...require("daisyui/src/theming/themes")["dark"],
-        "base-100": "#1E1E1E",
+        montserrat: ["var(--font-montserrat)"],
       },
-      darkMode: ['class', '[data-theme="dark"]']
     },
-    ]
   },
+  plugins: [require("daisyui")],  
 };

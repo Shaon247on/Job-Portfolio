@@ -13,7 +13,7 @@ const SideMenu = () => {
     return (
         <>
             <button onClick={() => setToggle(true)} className="mr-4 text-2xl block lg:hidden"><RiMenu5Line /></button>
-            <div className={` absolute top-[0px] w-full animate__animated my-element block lg:hidden bg-white dark:bg-[#1E1E1E] ${toggle ? 'animate__slideInLeft' : "animate__slideOutLeft"} overflow-y-auto md:-mr-10 pb-8 h-[100vh]`} >
+            <div className={` absolute top-[0px] w-full animate__animated my-element block lg:hidden bg-white dark:bg-[#1E1E1E] ${toggle ? 'animate__slideInLeft' : "animate__slideOutLeft"} overflow-y-auto md:-mr-10 pb-8 h-[100vh] z-[100]`} >
                 <div className="flex justify-between items-start">
                     <div>                       
                         <SideMenuList/>

@@ -1,6 +1,6 @@
 const Button = ({text}) => {
     return (
-        <button className='xl:w-[188px] p-3 md:p-4 lg:p-[16px] xl:p-[18px] bg-[#FD6F00] rounded-lg text-white xl:text-[21px]'>
+        <button className='lg:w-[9.5rem] xl:w-[11.75rem] p-3 md:p-4 lg:p-[1rem] xl:p-[1.125rem] bg-[#FD6F00] rounded-lg text-white xl:text-[1.313rem]'>
             {text}
         </button>
     );

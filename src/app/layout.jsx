@@ -1,8 +1,6 @@
 import { Poppins, Montserrat } from 'next/font/google';
 import "./globals.css";
 import NavBar from './Components/NavBar';
-import ThemeContext from './Context/ThemeContext';
-import ClientThemeWrapper from './Context/ClientThemeWrapper';
 
 const poppins = Poppins({ weight: ['400', '500', '600', '700', '800', '900'], variable: "--font-poppins", subsets: ['latin'] })
 const montserrat = Montserrat({ weight: ['400', '500', '600', '700', '800', '900'], variable: "--font-montserrat", subsets: ['latin'] })
@@ -16,18 +14,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} ${montserrat.variable} antialiased`}
+        className={`${poppins.variable} ${montserrat.variable} antialiased px-5 md:px-[2.5rem] lg:px-[3.125rem] xl:px-[15.625rem] text-black dark:text-white font-poppins bg-white dark:bg-[#1E1E1E]`}
       >
-
-        <ThemeContext>
-          <ClientThemeWrapper>
-            <div className='lg:mx-[70px] xl:mx-[250px] font-poppins'>
-              <NavBar />
-              {children}
-            </div>
-          </ClientThemeWrapper>
-        </ThemeContext>
-
+        <div className=''>
+          <NavBar />
+          {children}
+        </div>
       </body>
     </html>
   );

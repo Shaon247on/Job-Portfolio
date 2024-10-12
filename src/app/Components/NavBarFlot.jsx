@@ -5,7 +5,6 @@ import 'animate.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import SideMenu from '@/src/app/Components/SideMenu';
-
 import NavList from '@/src/app/Components/NavList';
 import Logo from './Logo';
 import { useEffect } from 'react';
@@ -26,9 +25,9 @@ const NavBarFlot = () => {
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"
                 data-aos-anchor="#navAnchor"
-                className="nav_bar grid grid-cols-2 lg:grid-cols-10 xl:grid-cols-12 justify-between items-center z-[5] w-full h-[80px]">
+                className="nav_bar lg:px-[3.125rem] xl:px-[15.625rem] grid grid-cols-2 lg:grid-cols-10 xl:grid-cols-12 justify-between items-center z-[5] w-full h-[5rem] lg:h-[6.25rem]">
 
-                <div className='lg:col-span-2'>
+                <div className='lg:col-span-2 ml-[2.5rem]'>
                     <Logo />
                 </div>
                 <div className="md:col-span-0 lg:col-span-8 xl:col-span-10 hidden lg:flex justify-end items-center xl:gap-14">
