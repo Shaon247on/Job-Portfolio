@@ -1,9 +1,10 @@
-import React from 'react';
+import About from '../Components/About';
+import Banner from '../Components/Banner';
 
 const AboutMePage = () => {
     return (
         <div>
-            About me
+            <About/>
         </div>
     );
 };

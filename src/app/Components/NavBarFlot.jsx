@@ -26,17 +26,17 @@ const NavBarFlot = () => {
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"
                 data-aos-anchor="#navAnchor"
-                className="nav_bar grid grid-cols-1 lg:grid-cols-12 justify-between items-center z-[5] w-full h-[80px] lg:h-[100px] px-[250px]">
+                className="nav_bar grid grid-cols-2 lg:grid-cols-10 xl:grid-cols-12 justify-between items-center z-[5] w-full h-[80px]">
 
                 <div className='lg:col-span-2'>
                     <Logo />
                 </div>
-                <div className="lg:col-span-10 border-2 border-red-700 hidden lg:flex justify-end items-center gap-14">
-                    <ul className="flex px-1">
+                <div className="md:col-span-0 lg:col-span-8 xl:col-span-10 hidden lg:flex justify-end items-center xl:gap-14">
+                    <ul className="flex items-center gap-3">
                         <NavList />
                     </ul>
                 </div>
-                <div className="col-span-1 lg:col-span-0 flex-1 hidden lg:flex flex-row-reverse lg:flex-row justify-between items-center">
+                <div className="col-span-1 xl:col-span-0 flex-1 md:mr-10  flex flex-row-reverse lg:flex-row justify-between items-center lg:hidden">
                     <SideMenu />
                 </div>
 

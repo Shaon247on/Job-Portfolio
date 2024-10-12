@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
 
         <ThemeContext>
           <ClientThemeWrapper>
-            <div>
+            <div className='lg:mx-[70px] xl:mx-[250px] font-poppins'>
               <NavBar />
               {children}
             </div>
