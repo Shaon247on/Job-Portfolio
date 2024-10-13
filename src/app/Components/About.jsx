@@ -4,7 +4,7 @@ import img2 from '@/public/Group-7.png';
 
 const About = () => {
     return (
-        <div className='flex flex-col md:flex-row items-center justify-center mt-20 md:mt-16 gap-12 md:gap-[2%]'>
+        <div id='about' className='flex flex-col md:flex-row items-center justify-center mt-20 md:mt-16 gap-12 md:gap-[2%]'>
                 <div className='w-[100%]'>
                     <Image src={img2} alt='Banner Image 2' />
                 </div>

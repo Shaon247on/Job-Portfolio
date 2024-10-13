@@ -13,15 +13,41 @@
     box-sizing: border-box;   
   }
 
-  /* .range {
-    height: 1rem;    
-    width: 100%;
-    cursor: pointer;
-    appearance: none;
-    -webkit-appearance: none;
-    --range-shdw:#FD6F00;
-    overflow: hidden;
-} */
+/* --------------------------- */
+
+.swiper-slide {
+  opacity: 0.5;
+  transition: opacity 0.5s ease;
+}
+
+/* Style for active slide */
+.swiper-slide-active {
+  opacity: 1;
+}
+
+/* Style for next and previous slides (optional, if you want them to have a different opacity) */
+.swiper-slide-next,
+.swiper-slide-prev {
+  opacity: 0.4;
+}
+
+
+.swiper-pagination {
+  bottom: 10px !important;
+  z-index: 100 !important;
+}
+.swiper-pagination-bullet{
+  width: 60px !important;
+  height: 16px !important;
+  border-radius: 30px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fd6f00 !important;
+}
+
+
+/* ------------------------------- */
 
 
 
