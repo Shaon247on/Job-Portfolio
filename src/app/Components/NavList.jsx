@@ -5,10 +5,10 @@ import Button from "./Button";
 
 
 
-const NavList = () => {
+const NavList = ({button=true}) => {
     return (
         <>
-            <div className="flex items-center lg:gap-3 xl:gap-0">
+            <div className="flex items-center lg:gap-3 xl:gap-0 list-none">
                 <ScrollLink                    
                     href="/"><li className="xl:text-xl xl:ml-8 font-medium hover:text-white">Home</li></ScrollLink>
                 <ScrollLink
@@ -42,7 +42,7 @@ const NavList = () => {
                     offset={-50}
                     href="/"><li className="xl:text-xl xl:ml-8 font-medium hover:text-white">Contact</li></ScrollLink>
             </div>
-            <div className="flex gap-3 xl:gap-6 xl:ml-3">
+            <div className={`flex gap-3 xl:gap-6 xl:ml-3 ${button? "inline":"hidden"}`}>
                 <ThemeSwitcher />
                 <Button text={"Download CV"} />
             </div>
