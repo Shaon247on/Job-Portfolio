@@ -9,7 +9,7 @@ const NavBar = () => {
     return (
         <>
             <>
-                <div className="grid grid-cols-2 lg:grid-cols-10 xl:grid-cols-12 justify-between items-center z-[5] w-full h-[80px] lg:h-[100px]">
+                <div className="grid grid-cols-2 lg:grid-cols-10 xl:grid-cols-12 justify-between items-center z-[5] w-full h-[5rem] lg:h-[6.25rem]">
 
                     <div className='lg:col-span-2'>
                         <Logo />
@@ -19,7 +19,7 @@ const NavBar = () => {
                             <NavList />
                         </ul>
                     </div>
-                    <div className="col-span-1 xl:col-span-0 flex-1 md:mr-10  flex flex-row-reverse lg:flex-row justify-between items-center lg:hidden">
+                    <div className="col-span-1 xl:col-span-0 flex-1 md:mr-10  flex flex-row-reverse lg:flex-row justify-between items-center lg:hidden overflow-clip -pr-20">
                         <SideMenu />
                     </div>
 

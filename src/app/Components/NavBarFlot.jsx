@@ -35,7 +35,7 @@ const NavBarFlot = () => {
                         <NavList />
                     </ul>
                 </div>
-                <div className="col-span-1 xl:col-span-0 flex-1 md:mr-10  flex flex-row-reverse lg:flex-row justify-between items-center lg:hidden">
+                <div className="col-span-1 xl:col-span-0 flex-1 md:mr-10  flex flex-row-reverse lg:flex-row justify-between items-center lg:hidden overflow-clip">
                     <SideMenu />
                 </div>
 
