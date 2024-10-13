@@ -1,5 +1,7 @@
 import Banner from "./Components/Banner";
-import Slider from "./Components/Slider";
+import Project from "./Components/Project";
+import Testimonials from "./Components/Testimonials";
+
 
 
 
@@ -11,9 +13,11 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className=" font-poppins">
+    <div className="font-poppins">
       <Banner/>
-      <Slider />
+      <Project />
+
+      <Testimonials />
     </div>
   );
 }

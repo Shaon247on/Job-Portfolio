@@ -14,12 +14,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} ${montserrat.variable} antialiased px-5 md:px-[2.5rem] lg:px-[3.125rem] xl:px-[15.625rem] text-black dark:text-white font-poppins bg-white dark:bg-[#1E1E1E]`}
+        className={`${poppins.variable} ${montserrat.variable} border-4 border-green-900 px-5 md:px-[2.5rem] lg:px-[3.125rem] xl:px-[15.625rem] text-black dark:text-white font-poppins bg-white dark:bg-[#1E1E1E]`}
       >
-        <div className=''>
-          <NavBar />
-          {children}
-        </div>
+        <NavBar />
+        {children}
+
       </body>
     </html>
   );
