@@ -16,7 +16,7 @@ const Project = () => {
 
     useEffect(() => {
         const getData = async () => {
-            const query = await fetch("https://job-portfolio-dun.vercel.app/api/data")
+            const query = await fetch("http://localhost:3000/api/data")
             const response = await query.json()
             setProjects(response)
         }

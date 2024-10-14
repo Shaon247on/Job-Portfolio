@@ -1,5 +1,5 @@
 import Banner from "./Components/Banner";
-import Footer from "./Components/Footer";
+import Contact from "./Components/Contact";
 import Project from "./Components/Project";
 import Testimonials from "./Components/Testimonials";
 
@@ -17,7 +17,8 @@ export default function Home() {
     <div className="font-poppins">
       <Banner/>
       <Project />
-      <Testimonials />      
+      <Testimonials />    
+      <Contact />
     </div>
   );
 }
