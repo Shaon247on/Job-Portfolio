@@ -12,7 +12,7 @@ export const metadata = {
 
 const Testimonials= () => {
     return (
-        <div>
+        <div id='testimonials'>
             <Title tittle='Testimonials' subtitle='Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium'/>
             <Slider />
         </div>

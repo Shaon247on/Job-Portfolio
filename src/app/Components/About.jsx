@@ -5,8 +5,9 @@ import img2 from '@/public/Group-7.png';
 const About = () => {
     return (
         <div id='about' className='flex flex-col md:flex-row items-center justify-center mt-20 md:mt-16 gap-12 md:gap-[2%]'>
-                <div className='w-[100%]'>
+                <div className='w-[100%] relative'>
                     <Image src={img2} alt='Banner Image 2' />
+                    <div className='absolute z-[1] w-[58.9%] h-[13.06%] bg-[#FD6F0099] top-[14.7%] left-[19.5%]'></div>
                 </div>
                 <div className=''>
                         <h1 className='text-[2rem] lg:text-[3rem] xl:text-[4.063rem] font-semibold'>About Me </h1>

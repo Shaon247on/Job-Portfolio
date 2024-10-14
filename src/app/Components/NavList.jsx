@@ -18,25 +18,25 @@ const NavList = ({button=true}) => {
                     offset={-50}                    
                     ><li className="xl:text-xl xl:ml-8 font-medium hover:text-white">About Us</li></ScrollLink>
                 <ScrollLink
-                    to="section1"
+                    to="services"
                     smooth={true}
                     duration={400}
                     offset={-50}
                     href="/"><li className="xl:text-xl xl:ml-8 font-medium hover:text-white">Services</li></ScrollLink>
                 <ScrollLink
-                    to="section1"
+                    to="projects"
                     smooth={true}
                     duration={400}
                     offset={-50}
                     href="/"><li className="xl:text-xl xl:ml-8 font-medium hover:text-white">Projects</li></ScrollLink>
                 <ScrollLink
-                    to="Testimonials"
+                    to="testimonials"
                     smooth={true}
                     duration={400}
                     offset={-50}
                     href="/"><li className="xl:text-xl xl:ml-8 font-medium hover:text-white">Testimonials</li></ScrollLink>
                 <ScrollLink
-                    to="section1"
+                    to="contact"
                     smooth={true}
                     duration={400}
                     offset={-50}

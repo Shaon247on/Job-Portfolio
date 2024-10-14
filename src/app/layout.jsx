@@ -2,6 +2,7 @@ import { Poppins, Montserrat } from 'next/font/google';
 import "./globals.css";
 import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
+import Head from 'next/head';
 
 const poppins = Poppins({ weight: ['400', '500', '600', '700', '800', '900'], variable: "--font-poppins", subsets: ['latin'] })
 const montserrat = Montserrat({ weight: ['400', '500', '600', '700', '800', '900'], variable: "--font-montserrat", subsets: ['latin'] })
@@ -14,6 +15,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <title>My Next.js App</title>
+        <link rel="icon" href="../../public/main-icon.png" />
+      </Head>
       <body
         className={`${poppins.variable} ${montserrat.variable}`}
       >

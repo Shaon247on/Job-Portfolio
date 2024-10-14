@@ -97,19 +97,19 @@
   appearance: none;
   width: 1.25rem;
   height: 1.25rem;
-  background: #FD6F00;
+  background: #EDECEC;
   border-radius: 50%;
   cursor: pointer;
-  border: 0.125rem solid #ffffff;
+  border: 0.125rem solid #FD6F00;
 }
 
 .customRange1::-moz-range-thumb {
   width: 1.25rem;
   height: 1.25rem;
-  background: #FD6F00;
+  background: #EDECEC;
   border-radius: 50%;
   cursor: pointer;
-  border: 0.125rem solid #ffffff;
+  border: 0.125rem solid #FD6F00;
 }
 
 
@@ -119,19 +119,19 @@
   appearance: none;
   width: 1.25rem;
   height: 1.25rem;
-  background: #FD6F00; 
+  background: #EDECEC; 
   border-radius: 50%;
   cursor: pointer;
-  border: 0.125rem solid #ffffff;
+  border: 0.125rem solid #FD6F00;
 }
 
 .customRange1::-moz-range-thumb {
   width: 1.25rem;
   height: 1.25rem;
-  background: #FD6F00;
+  background: #EDECEC;
   border-radius: 50%;
   cursor: pointer;
-  border: 0.125rem solid #ffffff;
+  border: 0.125rem solid #FD6F00;
 }
 
 
@@ -142,19 +142,19 @@
   appearance: none;
   width: 1.25rem;
   height: 1.25rem;
-  background: #FD6F00; 
+  background: #EDECEC; 
   border-radius: 50%;
   cursor: pointer;
-  border: 0.125rem solid #ffffff;
+  border: 0.125rem solid #FD6F00;
 }
 
 .customRange2::-moz-range-thumb {
   width: 1.25rem;
   height: 1.25rem;
-  background: #FD6F00; 
+  background: #EDECEC; 
   border-radius: 50%;
   cursor: pointer;
-  border: 0.125rem solid #ffffff;
+  border: 0.125rem solid #FD6F00;
 }
 
 
@@ -165,19 +165,19 @@
   appearance: none;
   width: 1.25rem;
   height: 1.25rem;
-  background: #FD6F00; 
+  background: #EDECEC; 
   border-radius: 50%;
   cursor: pointer;
-  border: 0.125rem solid #ffffff;
+  border: 0.125rem solid #FD6F00;
 }
 
 .customRange3::-moz-range-thumb {
   width: 1.25rem;
   height: 1.25rem;
-  background: #FD6F00; 
+  background: #EDECEC; 
   border-radius: 50%;
   cursor: pointer;
-  border: 0.125rem solid #ffffff;
+  border: 0.125rem solid #FD6F00;
 }
 
 
@@ -187,17 +187,18 @@
   appearance: none;
   width: 1.25rem;
   height: 1.25rem;
-  background: #FD6F00;
+  background: #EDECEC;
   border-radius: 50%;
   cursor: pointer;
-  border: 0.125rem solid #ffffff;
+  border: 0.125rem solid #FD6F00;
 }
 
 .customRange4::-moz-range-thumb {
   width: 1.25rem;
   height: 1.25rem;
-  background: #FD6F00;
+  background: #EDECEC;
   border-radius: 50%;
   cursor: pointer;
-  border: 0.125rem solid #ffffff;
+  border: 0.125rem solid #FD6F00;
 }
+

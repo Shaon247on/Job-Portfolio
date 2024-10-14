@@ -17,7 +17,7 @@ const NavBar = () => {
                     </div>
                     <div className="md:col-span-0 lg:col-span-8 xl:col-span-10 hidden lg:flex justify-end items-center xl:gap-14">
                         <ul className="flex items-center gap-3">
-                            <NavList button={false}/>
+                            <NavList/>
                         </ul>
                     </div>
                     <div className="col-span-1 xl:col-span-0 flex-1 md:mr-10  flex flex-row-reverse lg:flex-row justify-between items-center lg:hidden overflow-clip -pr-20">

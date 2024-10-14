@@ -1,14 +1,8 @@
 "use client"
 import { useState, useEffect } from "react";
-import TabContent from "./TabContent";
-import tab1 from '@/public/Project-1.png';
-import tab2 from '@/public/Project-2.png';
-import tab3 from '@/public/Project-3.png';
-import tab4 from '@/public/Project-1.png';
-import tab5 from '@/public/Project-2.png';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import Image from "next/image";
+import Title from "./Title";
 
 const Project = () => {
     const [projects, setProjects] = useState([])
@@ -16,7 +10,7 @@ const Project = () => {
 
     useEffect(() => {
         const getData = async () => {
-            const query = await fetch("http://localhost:3000/api/data")
+            const query = await fetch("https://job-portfolio-dun.vercel.app/api/data")
             const response = await query.json()
             setProjects(response)
         }
@@ -28,9 +22,9 @@ const Project = () => {
     const appData = projects.filter(project => project.Category === "App Design")
     const graphicData = projects.filter(project => project.Category === "Graphic Design")
     return (
-        <div role="tablist" className="mb-36">   
-
-            <div className="flex items-center gap-4 lg:gap-8 overflow-scroll md:overflow-x-auto justify-start md:justify-center">
+        <div id="projects" role="tablist" className="mb-36">   
+            <Title tittle="My Projects" subtitle='Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam mauris est risus lectus. Phasellus consequat urna tellus' />
+            <div className="flex items-center gap-4 lg:gap-8 overflow-scroll md:overflow-hidden mt-32 justify-start md:justify-center">
                 <button onClick={() => setToggle(1)} className={`px-5 py-3 text-center text-base lg:text-2xl font-semibold rounded-lg ${toggle === 1 ? "text-white" : "text-black"} ${toggle === 1 ? "bg-primary" : "bg-[#F8F8F8]"}`}>All</button>
                 <button onClick={() => setToggle(2)} className={`px-5 py-3 text-center text-base lg:text-2xl font-semibold rounded-lg ${toggle === 2 ? "text-white" : "text-black"} ${toggle === 2 ? "bg-primary" : "bg-[#F8F8F8]"}`}>UI/UX</button>
                 <button onClick={() => setToggle(3)} className={`px-5 py-3 text-center text-base lg:text-2xl font-semibold rounded-lg ${toggle === 3 ? "text-white" : "text-black"} ${toggle === 3 ? "bg-primary" : "bg-[#F8F8F8]"}`}>Web Design</button>
